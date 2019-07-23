@@ -6,4 +6,12 @@
 
 *  cd SampleSonarQubeProject directory
 
-*   Run Gradle Commnd: gradle clean build check test jacocoTestReport sonarqube --info
+#### If Sonarqube Server Running Locally  
+
+* Run Gradle Commnd:        gradle clean build check test jacocoTestReport sonarqube --info
+
+#### If Sonarqube Server Running On remore (example: http://192.168.20.111:9000 )
+
+* Run Gradle Commnd:        gradle clean build check test sonarqube -Dsonar.host.url=http://192.168.20.111:9000 --stacktrace
+
+* Run Gradle Commnd:        gradle clean build check test sonarqube -Dsonar.host.url=http://localhost:9000 --stacktrace
