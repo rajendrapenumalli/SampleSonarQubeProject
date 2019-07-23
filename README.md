@@ -1,6 +1,6 @@
 # SamppleSonarQubeProject
 
-*  Start SonarQube Instance remote|local|Container
+*  Start SonarQube Instance on remote|local|Container
 
 *  Clone Project Locally using : git clone https://github.com/rajendrapenumalli/SampleSonarQubeProject.git
 
