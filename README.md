@@ -1,9 +1,9 @@
 # SamppleSonarQubeProject
 
-*  Start SnonarQube Instance remote|local|Container
+*  Start SonarQube Instance remote|local|Container
 
-*  Clone Project Locally using : git clone https://github.com/rajendrapenumalli/SamppleSonarQubeProject.git
+*  Clone Project Locally using : git clone https://github.com/rajendrapenumalli/SampleSonarQubeProject.git
 
-*  cd SamppleSonarQubeProject directory
+*  cd SampleSonarQubeProject directory
 
 *   Run Gradle Commnd: gradle clean build check test jacocoTestReport sonarqube --info
