@@ -18,5 +18,12 @@ public class MathOperationsTest  {
 		int sum=cal.add(1,2);
 		assertTrue(sum==3);
 	}
+
+	@Test
+	public void testMulti() {
+		int prod=cal.multi(1,2);
+		assertTrue(prod==2);
+	}
+
 }
 	
