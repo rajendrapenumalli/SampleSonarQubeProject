@@ -25,5 +25,12 @@ public class MathOperationsTest  {
 		assertTrue(prod==2);
 	}
 
+	@Test
+	public void testSub() {
+		int diff=cal.sub(5,2);
+
+		assertTrue(diff==3);
+	}
+
 }
 	
