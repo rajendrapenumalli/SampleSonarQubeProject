@@ -32,5 +32,11 @@ public class MathOperationsTest  {
 		assertTrue(diff==3);
 	}
 
+	@Test
+	public void testDiv() {
+		int res=cal.div(5,2);
+		assertTrue(res==2);
+	}
+
 }
 	
